@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Information</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <h1 id="contact_page_title">Contact Page</h1>
+    </header>
+
+    <main>
+        <h2>How to contact me</h2>
+        <table id="Contact_Table">
+            <thead id="table_head">
+                <tr>
+                    <th>Contact method</th>
+                    <th>Contact Information</th>
+                </tr>
+            </thead>
+            <tbody class="table_body">
+                <tr>
+                    <td>Facebook</td>
+                    <td>
+                        <a href="caongocson.com">caongocson.com</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody class="table_body">
+                <tr>
+                    <td>LinkedIn</td>
+                    <td>
+                        <a href="caongocson.linkedin">caongocson.linkedIn</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody class="table_body">
+                <tr>
+                    <td>Email address</td>
+                    <td>
+                        <a href="s3916151@rmit.edu.vn">s3916151@rmit.edu.vn</a>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody class="table_body">
+                <tr>
+                    <td>Phone number</td>
+                    <td>0123456789</td>
+                </tr>
+            </tbody>
+        </table>
+        <form onsubmit="false" id="contact_form" name='contact me'>
+            <header>
+                <h2>Lets get in touch</h2>
+            </header>
+            <p>Leave your information below so I can contact you</p>
+            <section id="input_contact_info">
+                <label>Your name</label><br>
+                <input type=" text " name="name " placeholder="Optional " maxlength="1000 "> <br><br>
+                <label>Email address</label> <br>
+                <input type="email " name="email address " placeholder="maximum 50 words " maxlength="50 " required> <br><br>
+                <label>Your phone number</label> <br>
+                <input type="number " name="phone number " placeholder="Only numbers are allowed " required><br><br>
+                <label>Prefered Contact Method</label> <br>
+                <input type="radio " id='email' name='contact choice' /> <label for='email'>Email</label>
+                <input type="radio " id='phone' name='contact choice' /> <label for='phone'>Phone</label> <br><br>
+                <label>Leave any message for me</label> <br>
+                <textarea cols='80' rows='9' placeholder="PLease leave your message here "></textarea> <br><br>
+                <input type='reset' value='Clear all input' />
+                <input type='submit' value=" Send ">
+            </section>
+
+        </form>
+
+    </main> <br>
+
+    <nav class="navigation_site ">
+        <header>
+            <h3>Below is other information about me:</h3>
+        </header>
+        <a href="index.html ">Go back to my blog</a><br>
+        <a href="cv.html ">Click here to check my CV</a> <br>
+        <a href="projects.html ">All the projects I have done in the past</a> <br>
+    </nav>
+
+</html>
